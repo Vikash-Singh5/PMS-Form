@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMS Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="coding.js"></script>
+</head>
+<body>
+    <div class="heading">
+        <img src="logo.png" alt="">
+        <img src="Electric.png" alt="">
+        <h1><strong>Goal Sheet</strong></h1>
+        <p>(Performance Year 2024-25)</p>
+    </div>
+    
+    <form action="https://docs.google.com/forms/d/e/1FAIpQLSeqaELMMosegug7m1HRW1IfAu35G2LHR5IJVyGrPmlMtq_KYg/formResponse">
+
+        <div class="description">
+            <h2>This Goal Sheet is divided into 4 parts</h2>
+                <p><strong>Part A: </strong><u>KRA(Key Responsibility Area)</u></p>
+                <p><strong>Part B: </strong><u>New Initiatives</u></p>
+                <p><strong>Part C: </strong><u>Competency Analysis</u></p>
+                <p><strong>Part D: </strong><u>Training & Suggestions</u></p>
+        </div>
+        
+        <div class="c1">
+            <label for="ecSearch">Search E.C. No:</label>
+            <input type="text" id="ecSearch" onkeyup="filterOptions()" placeholder="Type to search...">
+        </div>
+        
+        <div class="c1">
+            <label for="entry.459367307">E.C No</label>
+            <select id="entry.459367307" name="entry.459367307" onchange="fillDetails()">
+                <option value="">Select E.C. No...</option>
+                <option value="A01517">A01517</option>
+                <option value="A02200">A02200</option>
+                <option value="A00150">A00150</option>
+                <option value="A02354">A02354</option>
+                <option value="A02276">A02276</option>
+                <option value="A01681">A01681</option>
+                <option value="A01490">A01490</option>
+                <option value="A01915">A01915</option>
+                <option value="A01557">A01557</option>
+                <option value="A01862">A01862</option>
+                <option value="A02226">A02226</option>
+                <option value="A02299">A02299</option>
+                <option value="A01501">A01501</option>
+                <option value="A02248">A02248</option>
+                <option value="A02264">A02264</option>
+                <option value="A02017">A02017</option>
+                <option value="A00231">A00231</option>
+                <option value="A00134">A00134</option>
+                <option value="A01446">A01446</option>
+                <option value="A02186">A02186</option>
+                <option value="A02117">A02117</option>
+                <option value="A01932">A01932</option>
+                <option value="A01811">A01811</option>
+                <option value="A02091">A02091</option>
+                <option value="L00265">L00265</option>
+                <option value="A02084">A02084</option>
+                <option value="A01969">A01969</option>
+                <option value="A02094">A02094</option>
+                <option value="L00266">L00266</option>
+                <option value="A01622">A01622</option>
+                <option value="A01893">A01893</option>
+                <option value="A01875">A01875</option>
+                <option value="A01920">A01920</option>
+                <option value="L00273">L00273</option>
+                <option value="A01901">A01901</option>
+                <option value="A02214">A02214</option>
+                <option value="A01065">A01065</option>
+                <option value="A01694">A01694</option>
+                <option value="A01110">A01110</option>
+                <option value="A00110">A00110</option>
+                <option value="A00609">A00609</option>
+                <option value="A01428">A01428</option>
+                <option value="A02036">A02036</option>
+                <option value="A01080">A01080</option>
+                <option value="A01083">A01083</option>
+                <option value="A01946">A01946</option>
+                <option value="L00220">L00220</option>
+                <option value="A00072">A00072</option>
+                <option value="A01709">A01709</option>
+                <option value="A02005">A02005</option>
+                <option value="A02173">A02173</option>
+                <option value="A02353">A02353</option>
+                <option value="A01281">A01281</option>
+                <option value="A01899">A01899</option>
+                <option value="A02247">A02247</option>
+                <option value="A02156">A02156</option>
+                <option value="A01290">A01290</option>
+                <option value="A01406">A01406</option>
+                <option value="A02355">A02355</option>
+                <option value="A01912">A01912</option>
+                <option value="A02222">A02222</option>
+                <option value="L00267">L00267</option>
+                <option value="A02286">A02286</option>
+                <option value="A01357">A01357</option>
+                <option value="A02134">A02134</option>
+                <option value="A02288">A02288</option>
+                <option value="A01916">A01916</option>
+                <option value="L00275">L00275</option>
+                <option value="A01845">A01845</option>
+                <option value="A02085">A02085</option>
+                <option value="L00821">L00821</option>
+                <option value="A00314">A00314</option>
+                <option value="A01526">A01526</option>
+                <option value="A01842">A01842</option>
+                <option value="A01556">A01556</option>
+                <option value="A02273">A02273</option>
+                <option value="A01774">A01774</option>
+                <option value="A01983">A01983</option>
+                <option value="L00274">L00274</option>
+                <option value="A01906">A01906</option>
+                <option value="A02102">A02102</option>
+                <option value="A02255">A02255</option>
+                <option value="A01459">A01459</option>
+                <option value="A02055">A02055</option>
+                <option value="A01552">A01552</option>
+                <option value="A01843">A01843</option>
+                <option value="A02351">A02351</option>
+                <option value="A02281">A02281</option>
+                <option value="A00313">A00313</option>
+                <option value="A00715">A00715</option>
+                <option value="A01992">A01992</option>
+                <option value="A02178">A02178</option>
+                <option value="A01937">A01937</option>
+                <option value="A01559">A01559</option>
+                <option value="A01573">A01573</option>
+                <option value="A00075">A00075</option>
+                <option value="A01856">A01856</option>
+                <option value="A01918">A01918</option>
+                <option value="A01460">A01460</option>
+                <option value="A01643">A01643</option>
+                <option value="A01751">A01751</option>
+                <option value="A02155">A02155</option>
+                <option value="A01467">A01467</option>
+                <option value="A02001">A02001</option>
+                <option value="A00396">A00396</option>
+                <option value="A01473">A01473</option>
+                <option value="A02285">A02285</option>
+                <option value="A01987">A01987</option>
+                <option value="A02161">A02161</option>
+                <option value="A01786">A01786</option>
+                <option value="A02244">A02244</option>
+                <option value="A02359">A02359</option>
+                <option value="A02078">A02078</option>
+                <option value="A01883">A01883</option>
+                <option value="A02063">A02063</option>
+                <option value="A01565">A01565</option>
+                <option value="A01821">A01821</option>
+                <option value="A02350">A02350</option>
+                <option value="A00101">A00101</option>
+                <option value="A00759">A00759</option>
+                <option value="L00278">L00278</option>
+                <option value="A01894">A01894</option>
+                <option value="A02108">A02108</option>
+                <option value="A01125">A01125</option>
+                <option value="A01427">A01427</option>
+                <option value="A02266">A02266</option>
+                <option value="A02003">A02003</option>
+                <option value="A01895">A01895</option>
+                <option value="A02251">A02251</option>
+                <option value="A01941">A01941</option>
+                <option value="A02077">A02077</option>
+                <option value="A02263">A02263</option>
+                <option value="A01595">A01595</option>
+                <option value="A01887">A01887</option>
+                <option value="A02123">A02123</option>
+                <option value="A02198">A02198</option>
+                <option value="A02289">A02289</option>
+                <option value="A02072">A02072</option>
+                <option value="A01923">A01923</option>
+                <option value="A02040">A02040</option>
+                <option value="A01865">A01865</option>
+                <option value="A02243">A02243</option>
+                <option value="A02253">A02253</option>
+                <option value="A02233">A02233</option>
+                <option value="A02153">A02153</option>
+                <option value="L00565">L00565</option>
+                <option value="A02280">A02280</option>
+                <option value="A02229">A02229</option>
+                <option value="A01871">A01871</option>
+                <option value="A02300">A02300</option>
+                <option value="A01456">A01456</option>
+                <option value="A02196">A02196</option>
+                <option value="A01563">A01563</option>
+                <option value="A01348">A01348</option>
+                <option value="A01432">A01432</option>
+                <option value="A01740">A01740</option>
+                <option value="A01980">A01980</option>
+                <option value="A01601">A01601</option>
+                <option value="A02246">A02246</option>
+                <option value="A01721">A01721</option>
+                <option value="A00144">A00144</option>
+                <option value="A00597">A00597</option>
+                <option value="L00558">L00558</option>
+                <option value="A01370">A01370</option>
+                <option value="A01951">A01951</option>
+                <option value="A00391">A00391</option>
+                <option value="A01131">A01131</option>
+                <option value="A02115">A02115</option>
+                <option value="A02217">A02217</option>
+                <option value="A02278">A02278</option>
+                <option value="A02129">A02129</option>
+                <option value="A02277">A02277</option>
+                <option value="A02114">A02114</option>
+                <option value="A01921">A01921</option>
+                <option value="A02068">A02068</option>
+                <option value="A02009">A02009</option>
+                <option value="A01734">A01734</option>
+                <option value="A02171">A02171</option>
+                <option value="A01979">A01979</option>
+                <option value="A02104">A02104</option>
+                <option value="A02033">A02033</option>
+                <option value="A01119">A01119</option>
+                <option value="A01952">A01952</option>
+                <option value="A00617">A00617</option>
+                <option value="A00076">A00076</option>
+                <option value="A01352">A01352</option>
+                <option value="A02265">A02265</option>
+                <option value="A01724">A01724</option>
+                <option value="L00573">L00573</option>
+                <option value="A01782">A01782</option>
+                <option value="A02308">A02308</option>
+                <option value="A01886">A01886</option>
+                <option value="A01885">A01885</option>
+                <option value="A01583">A01583</option>
+                <option value="A02032">A02032</option>
+                <option value="A01469">A01469</option>
+                <option value="A02062">A02062</option>
+                <option value="A02201">A02201</option>
+                <option value="A01700">A01700</option>
+                <option value="A02215">A02215</option>
+                <option value="A02349">A02349</option>
+                <option value="A01499">A01499</option>
+                <option value="A02357">A02357</option>
+                <option value="A02358">A02358</option>
+                <option value="A02254">A02254</option>
+                <option value="A02177">A02177</option>
+                <option value="A02361">A02361</option>
+                <option value="A00398">A00398</option>
+                <option value="A00340">A00340</option>
+                <option value="A01582">A01582</option>
+                <option value="A01453">A01453</option>
+                <option value="A02283">A02283</option>
+                <option value="A02004">A02004</option>
+                <option value="A01989">A01989</option>
+                <option value="A02107">A02107</option>
+                <option value="A01737">A01737</option>
+                <option value="A01635">A01635</option>
+                <option value="A01897">A01897</option>
+                <option value="A02287">A02287</option>
+                <option value="A01840">A01840</option>
+                <option value="A01624">A01624</option>
+                <option value="A01463">A01463</option>
+                <option value="A02099">A02099</option>
+                <option value="A00141">A00141</option>
+                <option value="A01389">A01389</option>
+                <option value="A01426">A01426</option>
+                <option value="A01975">A01975</option>
+                <option value="A02014">A02014</option>
+                <option value="A01525">A01525</option>
+                <option value="A00379">A00379</option>
+                <option value="A00360">A00360</option>
+                <option value="A01857">A01857</option>
+                <option value="A01644">A01644</option>
+                <option value="A01561">A01561</option>
+                <option value="A00153">A00153</option>
+                <option value="A01566">A01566</option>
+                <option value="A01616">A01616</option>
+                <option value="L00244">L00244</option>
+                <option value="A02057">A02057</option>
+                <option value="A01764">A01764</option>
+                <option value="A01935">A01935</option>
+                <option value="A02342">A02342</option>
+                <option value="A02259">A02259</option>
+                <option value="A01564">A01564</option>
+                <option value="A02296">A02296</option>
+                <option value="A02116">A02116</option>
+                <option value="A00516">A00516</option>
+                <option value="A02206">A02206</option>
+                <option value="A01593">A01593</option>
+                <option value="A02195">A02195</option>
+                <option value="A01645">A01645</option>
+                <option value="A02261">A02261</option>
+                <option value="A02093">A02093</option>
+                <option value="A02125">A02125</option>
+                <option value="A02160">A02160</option>
+                <option value="A02318">A02318</option>
+                <option value="A02284">A02284</option>
+                <option value="A02065">A02065</option>
+                <option value="A02035">A02035</option>
+                <option value="A01960">A01960</option>
+                <option value="A01759">A01759</option>
+                <option value="A01560">A01560</option>
+                <option value="A02052">A02052</option>
+                <option value="A02210">A02210</option>
+                <option value="A02101">A02101</option>
+                <option value="A02294">A02294</option>
+                <option value="A01482">A01482</option>
+                <option value="A02363">A02363</option>
+                <option value="A02365">A02365</option>
+                <option value="A02366">A02366</option>
+                <option value="A02367">A02367</option>
+                <option value="A02368">A02368</option>
+                <option value="A02370">A02370</option>
+                <option value="NAP001">NAP001</option>
+                <option value="NAP002">NAP002</option>
+                <option value="NAP003">NAP003</option>
+                <option value="NAP004">NAP004</option>
+                <option value="NAP005">NAP005</option>
+                <option value="NAP006">NAP006</option>
+                <option value="NAP007">NAP007</option>
+                <option value="NAP008">NAP008</option>
+                <option value="NAP009">NAP009</option>
+                <option value="NAP010">NAP010</option>
+                <option value="NAP011">NAP011</option>
+                <option value="NAP012">NAP012</option>
+                <option value="NAP013">NAP013</option>
+                <option value="NAP014">NAP014</option>
+                <option value="NAP015">NAP015</option>
+                <option value="NAP016">NAP016</option>
+                <option value="NAP017">NAP017</option>
+                <option value="NAP018">NAP018</option>
+                <option value="NAP020">NAP020</option>
+                <option value="NAP022">NAP022</option>
+                <option value="NAP023">NAP023</option>
+                <option value="NAP025">NAP025</option>
+                <option value="NAP026">NAP026</option>
+                <option value="NAP027">NAP027</option>
+                <option value="NAP028">NAP028</option>
+                <option value="NAT001">NAT001</option>
+                <option value="NAT002">NAT002</option>
+                <option value="NAT003">NAT003</option>
+                <option value="NAT004">NAT004</option>
+                <option value="NAT005">NAT005</option>
+                <option value="NAT006">NAT006</option>
+                <option value="NAT007">NAT007</option>
+                <option value="NAT008">NAT008</option>
+                <option value="NAT009">NAT009</option>
+                <option value="NAT010">NAT010</option>
+                <option value="NAT013">NAT013</option>
+                <option value="NAT014">NAT014</option>
+                <option value="NAT015">NAT015</option>
+                <option value="NAT016">NAT016</option>
+                <option value="NAT017">NAT017</option>
+                <option value="NAT019">NAT019</option>
+                <option value="NAT023">NAT023</option>
+                <option value="NAT026">NAT026</option>
+                <option value="NAT027">NAT027</option>
+                <option value="NAT028">NAT028</option>
+                <option value="NAT030">NAT030</option>
+                <option value="NAT031">NAT031</option>
+                <option value="NAT032">NAT032</option>
+                <option value="NAT033">NAT033</option>
+                <option value="NAT034">NAT034</option>
+                <option value="NAT035">NAT035</option>
+                <option value="NAT036">NAT036</option>
+                <option value="NAT037">NAT037</option>
+                <option value="NAT038">NAT038</option>
+                <option value="A01512">A01512</option>
+                <option value="A01798">A01798</option>
+                <option value="A01303">A01303</option>
+                <option value="A01598">A01598</option>
+                <option value="A01896">A01896</option>
+                <option value="A00834">A00834</option>
+                <option value="A01954">A01954</option>
+                <option value="A02054">A02054</option>
+                <option value="A02019">A02019</option>
+                <option value="A00917">A00917</option>
+                <option value="A02081">A02081</option>
+                <option value="A02239">A02239</option>
+                <option value="A02317">A02317</option>
+                <option value="A02369">A02369</option>
+                <option value="EV0005">EV0005</option>
+                <option value="EV0006">EV0006</option>
+                <option value="EV0007">EV0007</option>
+                <option value="EV0009">EV0009</option>
+                <option value="EV0010">EV0010</option>
+                <option value="EV0011">EV0011</option>
+                <option value="EV0013">EV0013</option>
+                <option value="EV0014">EV0014</option>
+                <option value="EV0015">EV0015</option>
+                <option value="EV0016">EV0016</option>
+                <option value="NAPP001">NAPP001</option>
+                <option value="NAPP002">NAPP002</option>
+                <option value="NAPP003">NAPP003</option>
+                <option value="NAPP005">NAPP005</option>
+                
+            </select>
+        </div>
+        <div class="c2">
+            <label for="entry.1901190079">Name</label>
+            <input type="text" id="entry.1901190079" name="entry.1901190079" readonly>
+        </div>
+        <div class="c3">
+            <label for="entry.1673632614">Department</label>
+            <input type="text" id="entry.1673632614" name="entry.1673632614" readonly>
+            
+        </div>
+        <div class="c4">
+            <label for="entry.1269000508">Email ID</label>
+            <input type="email" id="entry.1269000508" name="entry.1269000508" readonly>
+        </div>
+
+        <div class="disclaimer">
+            <hr>
+            <h2>A: KRA- Key Responsibilty Area (Max.Marks 60)</h2>
+            <p>KRAs have to be SMART:</p>
+            <ul>
+                <li><strong>S:</strong> Specific.</li>
+                <li><strong>M:</strong> Measurable</li>
+                <li><strong>A:</strong> Achievable</li>
+                <li><strong>R:</strong> Relevant.</li>
+                <li><strong>T :</strong>Timebound.</li>
+            </ul>
+            <p><strong>Note:</strong> 5 KRAs are mandatory to be filled.</p>
+        </div>
+        <br>
+        <div class="row1">
+            <!-- <label for="entry.1745973834">KRA 1*</label>
+            <input type="text" name="entry.1745973834" data-category="KRA"> -->
+            <label for="entry.1745973834">KRA 1*</label>
+            <textarea name="entry.1745973834" id="entry_1745973834" class="auto-resize-input" data-category="KRA"></textarea>
+
+            <!-- <label for="entry.1037102255">KPI</label>
+            <input type="text" name="entry.1037102255" data-category="KRA"> -->
+            <label for="entry.1037102255">KPI</label>
+            <textarea name="entry.1037102255" id="entry_1037102255" class="auto-resize-input" data-category="KRA"></textarea>
+
+            <label for="entry.365633491">Target</label>
+            <input type="number" name="entry.365633491" data-category="KRA">
+            <label for="entry.1210358153">Time of completion</label>
+            <input type="date" name="entry.1210358153" data-category="KRA">
+            <label for="entry.2154909">Weightage</label>
+            <input type="number" name="entry.2154909" data-category="KRA">
+        </div>
+        <div class="row2">
+            <label for="entry.1031255313">KRA 2*</label>
+            <textarea name="entry.1031255313" id="entry_1031255313" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.2134247265">KPI</label>
+            <textarea name="entry.2134247265" id="entry_2134247265" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.674224201">Target</label>
+            <input type="number" name="entry.674224201" data-category="KRA">
+            <label for="entry.1427403346">Time of completion</label>
+            <input type="date" name="entry.1427403346" data-category="KRA">
+            <label for="entry.1851935999">Weightage</label>
+            <input type="number" name="entry.1851935999" data-category="KRA">
+        </div>
+        <div class="row3">
+            <label for="entry.766880644">KRA 3*</label>
+            <textarea name="entry.766880644" id="entry_766880644" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.123105621">KPI</label>
+            <textarea name="entry.123105621" id="entry_123105621" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.434389775">Target</label>
+            <input type="number" name="entry.434389775" data-category="KRA">
+            <label for="entry.901371930">Time of completion</label>
+            <input type="date" name="entry.901371930" data-category="KRA">
+            <label for="entry.80525495">Weightage</label>
+            <input type="number" name="entry.80525495" data-category="KRA">
+            
+        </div>
+        <div class="row4">
+            <label for="entry.737215426">KRA 4*</label>
+            <textarea name="entry.737215426" id="entry_737215426" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.775428908">KPI</label>
+            <textarea name="entry.775428908" id="entry_775428908" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.2038599087">Target</label>
+            <input type="number" name="entry.2038599087" data-category="KRA">
+            <label for="entry.1247986183">Time of completion</label>
+            <input type="date" name="entry.1247986183" data-category="KRA">
+            <label for="entry.1353547461">Weightage</label>
+            <input type="number" name="entry.1353547461" data-category="KRA">
+            
+        </div>
+        <div class="row5">
+            <label for="entry.1203302399">KRA 5*</label>
+            <textarea name="entry.1203302399" id="entry_1203302399" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.164661340">KPI</label>
+            <textarea name="entry.164661340" id="entry_164661340" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.1921533468">Target</label>
+            <input type="number" name="entry.1921533468" data-category="KRA">
+            <label for="entry.1468489731">Time of completion</label>
+            <input type="date" name="entry.1468489731" data-category="KRA">
+            <label for="entry.105008738">Weightage</label>
+            <input type="number" name="entry.105008738" data-category="KRA">
+            
+        </div>
+        <div class="row6">
+            <label for="entry.1566217746">KRA 6</label>
+            <textarea name="entry.1566217746" id="entry_1566217746" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.468178852">KPI</label>
+            <textarea name="entry.468178852" id="entry_468178852" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.1555159742">Target</label>
+            <input type="number" name="entry.1555159742" data-category="KRA">
+            <label for="entry.1741575890">Time of completion</label>
+            <input type="date" name="entry.1741575890" data-category="KRA">
+            <label for="entry.542858498">Weightage</label>
+            <input type="number" name="entry.542858498" data-category="KRA">
+            
+        </div>
+        <div class="row7">
+            <label for="entry.738275660">KRA 7</label>
+            <textarea name="entry.738275660" id="entry_738275660" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.733630349">KPI</label>
+            <textarea name="entry.733630349" id="entry_733630349" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.234421643">Target</label>
+            <input type="number" name="entry.234421643" data-category="KRA">
+            <label for="entry.129263413">Time of completion</label>
+            <input type="date" name="entry.129263413" data-category="KRA">
+            <label for="entry.495272561">Weightage</label>
+            <input type="number" name="entry.495272561" data-category="KRA">
+            
+        </div>
+        <div class="row8">
+            <label for="entry.2021578509">KRA 8</label>
+            <textarea name="entry.2021578509" id="entry_2021578509" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.1562801543">KPI</label>
+            <textarea name="entry.1562801543" id="entry_1562801543" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.1526274040">Target</label>
+            <input type="number" name="entry.1526274040" data-category="KRA">
+            <label for="entry.71469814">Time of completion</label>
+            <input type="date" name="entry.71469814" data-category="KRA">
+            <label for="entry.1894423910">Weightage</label>
+            <input type="number" name="entry.1894423910" data-category="KRA">
+            
+        </div>
+        <div class="row9">
+            <label for="entry.1221848414">KRA 9</label>
+            <textarea name="entry.1221848414" id="entry_1221848414" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.950069805">KPI</label>
+            <textarea name="entry.950069805" id="entry_950069805" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.2022279161">Target</label>
+            <input type="number" name="entry.2022279161" data-category="KRA">
+            <label for="entry.420367930">Time of completion</label>
+            <input type="date" name="entry.420367930" data-category="KRA">
+            <label for="entry.1896290339">Weightage</label>
+            <input type="number" name="entry.1896290339" data-category="KRA">
+            
+        </div>
+        <div class="row10">
+            <label for="entry.1437491574">KRA 10</label>
+            <textarea name="entry.1437491574" id="entry_1437491574" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.2061749093">KPI</label>
+            <textarea name="entry.2061749093" id="entry_2061749093" class="auto-resize-input" data-category="KRA"></textarea>
+            <label for="entry.2087404391">Target</label>
+            <input type="number" name="entry.2087404391" data-category="KRA">
+            <label for="entry.893550287">Time of completion</label>
+            <input type="date" name="entry.893550287" data-category="KRA">
+            <label for="entry.1179970253">Weightage</label>
+            <input type="number" name="entry.1179970253" data-category="KRA">
+            
+        </div>
+        <div class="total">
+            <label for="entry.1106801050">Total Weightage(auto generated field)</label>
+            <input type="number" name="entry.1106801050" data-category="KRA" readonly>
+            
+        </div>
+        <div class="disclaimer">
+            <hr>
+            <h2>B: New Initiatives (Max.Marks 20)</h2>
+            <p><strong>Note: </strong>1 Initiative & 1 Cost Saving Initiative is mandatory to be filled.</p>
+        </div>
+        <div class="row11">
+            <label for="entry.671827882">Initiative 1*</label>
+            <input type="text" name="entry.671827882" data-category="Initiative">
+            <label for="entry.1543073645">KPI</label>
+            <input type="text" name="entry.1543073645" data-category="Initiative">
+            <label for="entry.1529736657">Target</label>
+            <input type="number" name="entry.1529736657" data-category="Initiative">
+            <label for="entry.1463344340">Time of completion</label>
+            <input type="date" name="entry.1463344340" data-category="Initiative">
+            <label for="entry.577462297">Weightage</label>
+            <input type="number" name="entry.577462297" data-category="Initiative">
+            
+        </div>
+        <div class="row12">
+            <label for="entry.132917601">Initiative 2*</label>
+            <label for="entry.132917601" class="sub-label">(Cost Saving)</label>
+            <input type="text" name="entry.132917601" data-category="Initiative" class="unique-style">
+            <label for="entry.1243770860">KPI</label>
+            <input type="text" name="entry.1243770860" data-category="Initiative">
+            <label for="entry.812056746">Target</label>
+            <input type="number" name="entry.812056746" data-category="Initiative">
+            <label for="entry.895054325">Time of completion</label>
+            <input type="date" name="entry.895054325" data-category="Initiative">
+            <label for="entry.237334848">Weightage</label>
+            <input type="number" name="entry.237334848" data-category="Initiative" readonly>
+            
+        </div>
+        <div class="row13">
+            <label for="entry.1489888761">Initiative 3</label>
+            <input type="text" name="entry.1489888761" data-category="Initiative">
+            <label for="entry.1672117607">KPI</label>
+            <input type="text" name="entry.1672117607" data-category="Initiative">
+            <label for="entry.488189513">Target</label>
+            <input type="number" name="entry.488189513" data-category="Initiative">
+            <label for="entry.432086244">Time of completion</label>
+            <input type="date" name="entry.432086244" data-category="Initiative">
+            <label for="entry.1501775503">Weightage</label>
+            <input type="number" name="entry.1501775503" data-category="Initiative">
+            
+        </div>
+        <div class="total">
+            <label for="entry.2003645448">Total Weightage(auto generated field)</label>
+            <input type="number" name="entry.2003645448" data-category="Initiative" readonly>
+        </div>
+        <div class="disclaimer">
+            <hr>
+            <h2>C: Individual Competency Analysis (Max.Marks 20)</h2>
+            <p><strong>Note: </strong>Kindly select the competence level where you would like to see yourself at the end of current performance year.</p>
+            <ul>
+                <li><strong>Directed:</strong> Follow/does as much as told- 0.5 marks</li>
+                <li><strong>Skilled:</strong> Can independently work but requires direction- 1 marks</li>
+                <li><strong>Autonomous:</strong> Can work independently without any supervision, does accurate job- 1.5 marks</li>
+                <li><strong>Role Model:</strong> Able to set benchmarks, can handle multiple roles & has attitude of handling multiple roles- 2 marks</li>
+            </ul>
+        </div>
+        
+        <div class="row14">
+            <label for="entry.1870845644">1) Result Orientation- (Display courage, energy & drive to succeed, finds ways to accelerate goal attainment, punctuality, meeting deadlines)</label>
+            <select name="entry.1870845644" data-category="Questions" class="question-select">
+                <option value="">Choose</option>
+                <option value="Directed">Directed</option>
+                <option value="Skilled">Skilled</option>
+                <option value="Autonomous">Autonomous</option>
+                <option value="Role Model">Role Model</option>
+            </select>
+        </div>
+        
+        <br>
+        <br>
+        
+        <div class="row15">
+            <label for="entry.1486923202">2) Communicates Effectively-(Able to speak, read & write and good body language)</label>
+            <select name="entry.1486923202" data-category="Questions" class="question-select">
+                <option value="">Choose</option>
+                <option value="Directed">Directed</option>
+                <option value="Skilled">Skilled</option>
+                <option value="Autonomous">Autonomous</option>
+                <option value="Role Model">Role Model</option>
+            </select>
+        </div>
+        <br>
+        <br>
+
+        <div class="row16">
+            <label for="entry.519914505">3) Initiatives- (Generate new ideas and does different more than regular and non-regular work)
+            </label>
+            <select name="entry.519914505" data-category="Questions" class="question-select">
+                <option value="">Choose</option>
+                <option value="Directed">Directed</option>
+                <option value="Skilled">Skilled</option>
+                <option value="Autonomous">Autonomous</option>
+                <option value="Role Model">Role Model</option>
+            </select>
+        </div>
+        <br>
+        <br>
+
+        <div class="row17">
+            <label for="entry.488758339">4) Accountability & Adaptability-(Handles day-to-day work challenges confidently, holds self-accountable for assigned responsibilities)</label>
+            <select name="entry.488758339" data-category="Questions" class="question-select">
+                <option value="">Choose</option>
+                <option value="Directed">Directed</option>
+                <option value="Skilled">Skilled</option>
+                <option value="Autonomous">Autonomous</option>
+                <option value="Role Model">Role Model</option>
+            </select>
+        </div>
+        <br>
+        <br>
+
+        <div class="row18">
+            <label for="entry.1847120298">5) Customer Responsiveness (Internal & External)-(Understand customers need and try to solve problem)</label>
+            <select name="entry.1847120298" data-category="Questions" class="question-select">
+                <option value="">Choose</option>
+                <option value="Directed">Directed</option>
+                <option value="Skilled">Skilled</option>
+                <option value="Autonomous">Autonomous</option>
+                <option value="Role Model">Role Model</option>
+            </select>
+        </div>
+        <br>
+        <br>
+
+        <div class="row19">
+            <label for="entry.72134051">6) Planning & Goal Setting-(Develops plan including objectives & priorities objectives, Sets realistic steps and timeframes)</label>
+            <select name="entry.72134051" data-category="Questions" class="question-select">
+                <option value="">Choose</option>
+                <option value="Directed">Directed</option>
+                <option value="Skilled">Skilled</option>
+                <option value="Autonomous">Autonomous</option>
+                <option value="Role Model">Role Model</option>
+            </select>
+        </div>
+        <br>
+        <br>
+
+        <div class="row20">
+            <label for="entry.140055634">7) Creativity & Innovation-(Is s/he creative and think differently)</label>
+            <select name="entry.140055634" data-category="Questions" class="question-select">
+                <option value="">Choose</option>
+                <option value="Directed">Directed</option>
+                <option value="Skilled">Skilled</option>
+                <option value="Autonomous">Autonomous</option>
+                <option value="Role Model">Role Model</option>
+            </select>
+        </div>
+        <br>
+        <br>
+
+        <div class="row21">
+            <label for="entry.1552770816">8) Problem Solving & Decision Making-(Has a problem-solving ability and root cause analysis)</label>
+            <select name="entry.1552770816" data-category="Questions" class="question-select">
+                <option value="">Choose</option>
+                <option value="Directed">Directed</option>
+                <option value="Skilled">Skilled</option>
+                <option value="Autonomous">Autonomous</option>
+                <option value="Role Model">Role Model</option>
+            </select>
+        </div>
+        <br>
+        <br>
+
+        <div class="row22">
+            <label for="entry.1499607518">9) Interpersonal Skills-(Develop rapport, good relations and foster teamwork)</label>
+            <select name="entry.1499607518" data-category="Questions" class="question-select">
+                <option value="">Choose</option>
+                <option value="Directed">Directed</option>
+                <option value="Skilled">Skilled</option>
+                <option value="Autonomous">Autonomous</option>
+                <option value="Role Model">Role Model</option>
+            </select>
+        </div>
+        <br>
+        <br>
+        <div class="row23">
+            <label for="entry.965190142">10) Teamwork-(Ability to work independently with and without supervision and as a part of team)</label>
+            <select name="entry.965190142" data-category="Questions" class="question-select">
+                <option value="">Choose</option>
+                <option value="Directed">Directed</option>
+                <option value="Skilled">Skilled</option>
+                <option value="Autonomous">Autonomous</option>
+                <option value="Role Model">Role Model</option>
+            </select>
+        </div>
+        <br>    
+        <br>
+        <span id="totalMarksContainer">
+            My Expected Competence Number is : <span id="totalMarks"></span>
+        </span>
+
+        <br>
+
+        <div class="disclaimer">
+            <hr>
+            <h2>D: Trainings & Suggestions</h2>
+            <p><strong>Note: </strong>Both Training identified & one Suggestion is required to fill.</p>
+        </div>
+        <div class="row24">
+            <label for="entry.977353501">Training Identified 1</label>
+            <select name="entry.977353501" data-category="Initiative">
+                <option value="">Choose</option>
+                <option value="PPAP">PPAP</option>
+                <option value="7QC tools">7QC tools</option>
+                <option value="Train the Trainer">Train the Trainer</option>
+                <option value="FMEA">FMEA</option>
+                <option value="Business Etiquettes">Business Etiquettes</option>
+                <option value="APQP">APQP</option>
+                <option value="GD&T">GD&T</option>
+                <option value=""Internal Auditor">"Internal Auditor</option>
+                <option value="IATF 16949"">IATF 16949"</option>
+                <option value="SPC">SPC</option>
+                <option value="8D,RCA,5W1H,Problem Solving, 5S">8D,RCA,5W1H,Problem Solving, 5S</option>
+                <option value="IATF16949">IATF16949</option>
+                <option value="4M Audit Refresher">4M Audit Refresher</option>
+                <option value="MSA">MSA</option>
+                <option value="GD&T">GD&T</option>
+                <option value="IATF16949">IATF16949</option>
+                <option value="Gauge R&R">Gauge R&R</option>
+                <option value="VAVE">VAVE</option>
+                <option value="Ansys(FEA,Rm-XPRT,Maxwell)">Ansys(FEA,Rm-XPRT,Maxwell)</option>
+                <option value="Communication Skill">Communication Skill</option>
+                <option value="Leadership">Leadership</option>
+                <option value="Inter personnel skills">Inter personnel skills</option>
+                <option value="MSA">MSA</option>
+                <option value="PLC basics">PLC basics</option>
+                <option value="Root cause analysis">Root cause analysis</option>
+                <option value="FMEA">FMEA</option>
+                <option value="DOE">DOE</option>
+                <option value="Presentation skills">Presentation skills</option>
+                <option value="Team Building">Team Building</option>
+                <option value="SAP">SAP</option>
+                <option value="Advanced Excel and integration with chatgpt">Advanced Excel and integration with chatgpt</option>
+                <option value="Advanced Excel">Advanced Excel</option>
+                <option value="Communication & Personality Development">Communication & Personality Development</option>
+                <option value="MS-Powerpoint">MS-Powerpoint</option>
+                <option value="GST">GST</option>
+                <option value="POSH">POSH</option>
+                <option value="Fundamentals & manufacturing of starter motor armature">Fundamentals & manufacturing of starter motor armature</option>
+                <option value="DC machine working principles">DC machine working principles</option>
+                <option value="Fundamentals & manufacturing of solenoid switch">Fundamentals & manufacturing of solenoid switch</option>
+                <option value="First Aid Training">First Aid Training</option>
+                <option value="Negotiation & Conflict Resolution">Negotiation & Conflict Resolution</option>
+                <option value="Fire Fighting Training">Fire Fighting Training</option>
+                <option value="Time Management is Life Management">Time Management is Life Management</option>
+                <option value="Communication Skills and Corporate Etiquette">Communication Skills and Corporate Etiquette</option>
+                <option value="Business Writing Email Etiquette, Strategies and Techniques">Business Writing Email Etiquette, Strategies and Techniques</option>
+                <option value="Power BI- MIS report & Data Analysis">Power BI- MIS report & Data Analysis</option>
+                <option value="Advance Excel">Advance Excel</option>
+                <option value="Awareness Training on ISO standards">Awareness Training on ISO standards</option>
+                <option value="Internal Auditor Training">Internal Auditor Training</option>
+                <option value="STAR -Level 1">STAR -Level 1</option>
+                <option value="STAR-Level 2">STAR-Level 2</option>
+            </select>
+        </div>
+        <br>
+        <div class="row25">
+            <label for="entry.2020446260">Training Identified 2</label>
+            <input type="text" name="entry.2020446260" data-category="Initiative">
+        </div>
+
+        <input type="checkbox" id="agreeCheckbox">
+        <label for="agreeCheckbox" style="display: inline;">I have checked all the details filled by me thoroughly and agree to submit the form</label>
+
+
+        <!-- <div class="suggestions_form">
+            <h2>Suggestions</h2>
+            <p><strong>Note: </strong>Please note that minimum 2 suggestions are required to be submitted in a performance. </p>
+            <p>To submit your suggestions, please click the below link:</p>
+            <a href="https://forms.gle/EANYBuxpNUujngeGA" style="color: azure;">Click here to submit suggestions.</a>
+        </div> -->
+        <br>
+        <br>
+        <button type="submit">Submit Form</button>
+        <!-- <button type="button" onclick="calculatetotalWeightage()">Calculate total Weightage</button> -->
+        
+    </form>
+</body>
+</html>
+
+
